@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="rock-paper-scissors.css">
+  <script src="rock-paper-scissors.js"></script>
+</head>
+<body>
+  <p class="name">Rock Paper Scissors</p>
+
+  <!-- for rock button -->
+  <button onclick="
+  playGame('Rock');
+  " class="move-button"><img src="photos/rock.png" alt="rock" class="move-icon"></button>
+
+<!-- for Paper button -->
+  <button onclick="
+    playGame('Paper');
+  " class="move-button"><img src="photos/paper.png" alt="paper" class="move-icon"></button>
+
+<!-- for scissors button -->
+  <button onclick="
+    playGame('Scissors');
+  " class="move-button"><img src="photos/Scissors.png" alt="Sccissors" class="move-icon"></button>
+
+  <p class="js-result result"></p>
+  <p class="js-moves"></p>
+  <p class="js-score score"></p>
+  
+  <button onclick="
+    score.wins=0;
+    score.losses=0;
+    score.ties=0;
+    localStorage.removeItem('score');
+    
+    // here to update when we click reset
+    document.querySelector('.js-score').innerHTML=`Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
+  " class="reset-button">Reset Score</button>
+  
+</body>
+</html>
