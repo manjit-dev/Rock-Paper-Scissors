@@ -2,6 +2,7 @@ body{
       background-color: rgb(25, 25, 25);
       color: white;
       font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
     }
     .name{
       font-size: 30px;
@@ -9,7 +10,8 @@ body{
     }
     .move-icon{
       height: 50px;
-     
+      
+
     }
     .move-button{
       background-color: rgb(25, 25, 25);
@@ -20,6 +22,10 @@ body{
       cursor: pointer;
       width: 120px;
       height: 120px;
+      
+    }
+    .move-button:hover{
+      background-color: rgba(199, 174, 169, 0.342);
     }
 
     .result{
@@ -40,5 +46,10 @@ body{
       padding-left: 15px;
       padding-right: 15px;
       cursor: pointer;
+      
+    }
+    .me{
+      font-weight: bolder;
+      
     }
   
