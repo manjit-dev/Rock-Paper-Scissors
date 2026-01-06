@@ -2,7 +2,7 @@
 
 A simple web-based Rock Paper Scissors game.
 
-[**🔗 Play the Live Demo**](https://manjit-dev.github.io/Rock-Paper-Scissors)
+[**🔗 Play the Live Demo**](https://Suryaputra817.github.io/Rock-Paper-Scissors)
 
 ## Technologies
 * HTML5
